@@ -19,7 +19,7 @@ jobs:
       - name: Build pdf
         run: pdflatex resume.tex -o output/akash_resume_latest.pdf
       - name: Create pull request
-        uses: akashshuklacs/create-pull-request@v3
+        uses: peter-evans/create-pull-request@v3
         with: 
           commit-message: pdflatex build
           branch: pdflatex_build
