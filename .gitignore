@@ -2,3 +2,4 @@ main.synctex.gz
 resume.*
 !resume.cls
 !resume.tex
+!output/*
