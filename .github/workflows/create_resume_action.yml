@@ -17,10 +17,10 @@ jobs:
       - name: Install texlive-latex-extra
         run: sudo apt-get install texlive-latex-extra
       - name: Build pdf
-        run: pdflatex resume.tex -o output/akash_resume_latest.pdf
+        run: pdflatex -output-directory output resume.tex 
       - name: Create pull request
         uses: peter-evans/create-pull-request@v3
         with: 
-          commit-message: pdflatex build
-          branch: pdflatex_build
+          commit-message: resume build
+          branch: latest_resume
           title: '[CI] pdflatex build'
