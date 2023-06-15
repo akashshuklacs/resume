@@ -1,14 +1,4 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV
-% LaTeX Template
-% Version 2.0 (8/5/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Rishi Shah 
-%
 % Important note:
 % This template requires the resume.cls file to be in the same directory as the
 
@@ -37,45 +27,31 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 \begin{rSection}{WORK EXPERIENCE}
-{\bf Senior Software Engineer at Optum, UnitedHealth Group}\hfill {\em  January 2021 - Current}
+{\bf Senior Software Engineer at Optum, UnitedHealth Group}\hfill {\em  Jan 2022 - Current}
 \\ {\bf CDSS Cloud Migration} - {\em Migration of care delivery system to Azure Cloud}
-\\ - Responsible for migrating existing monolith service to Azure Cloud Microservices
-\\ - Rewrote legacy APIs and improved throughput by 90 percent
+\\ - Migrated monilith on-premises Spring application with millions of lines of code into logical microservices on a Azure Kubernetes cluster.
+\\ - Implemented performance monitoring using elastic APM in order to identify most commonly queried APIS. Reduced api responses by 95 percent by utilising redis to cache most frequently used requests.
+\\ - Optimised User Experience on pages with slower APIs by utilising Infinite Scrolling pagination.
+\\ - Conducted technical domain specific interviews for Full Stack Engineers.
 \\[-0.9em]
-\\{\bf Software Engineer at Optum, UnitedHealth Group}\hfill {\em  July 2019 - Current}
-\\ {\bf Empirical} - {\em Automated Information Extraction from Images}
-\\ - Developed automation to extract correlated fields \& tabular data from images using OCR, implemented novel algorithms using bounding box placements and text pattern, achieving accuracy of 95\%
-\\ - Improved efficiency by reducing average handling time for clinical records from 50 mins to 6 mins through fuzzy text pattern recognition, custom selection, auto detection, column data estimation etc
-\\ - Worked on various client POCs to extract unstructured information from images using NLP models
-\\- Managed production releases as Release lead, responsible for tracking stories, integration and testing, production deployment, monitoring and targeted delivery \& demo to clients
-\\ {\bf Catalyst} - {\em Patient onboarding and triaging (Java,Swift, Python)}
-\\ - Developed iPadOS application for patient onboarding and triaging kiosk using Swift
-\\ - Used facial recognition and OCR of insurance cards to expedite operations activities and cut down waiting time during hospital visits by 50%
-\\ - Developed in house platform for EDI data parsing and conversion using Spring Boot which resulted in saving entire EDI conversion costs
+\\{\bf Software Engineer at Optum, UnitedHealth Group}\hfill {\em  Jul 2019 - Dec 2022}
+\\{\bf Empirical} - {\em Automated Information Extraction from Images}
+\\ - Developed a product for automated information extraction from images with 95\% accuracy, leveraging a novel information structuring algorithm integrated with Azure OCR.
+\\ - Reduced insurance claims audit time from 50 mins to 6 minutes by integrating the in house information extraction tool to the audit workflow.
+\\- Led multiple end to end product releases, while reducing time to build by an avg of 5 percent on every release by automating  deployment, monitoring and alerts. Acted as a POC for client demos and product training.
+\\[-0.9em]
+\\{\bf Catalyst} - {\em Patient onboarding and triaging (Java,Swift, Python)}
+\\ - Reduced patient waiting time in Optum hospitals by 50 percent by developing and iPad application that utilised facial recognition and insurance card OCR for patient onboarding and triage.
+\\ - Saved entire conversion cost of EDI(Electronic Data Interchange) file formats by developing in-house platform for EDI data parsing and conversion.
 
 \end{rSection}
-%--------------------------------------------------------------------------------
-%    Internship And Projects
-%----------------------------------------------------------------------------------------------
-\begin{rSection}{EDUCATION}
 
-{\bf Bundelkhand Institute of Engineering and Technology, Jhansi} \hfill {\em July 2019 - May 2019} 
-\\ Bachelor of Technology in Computer Science and Engineering
-\\ {\bf Undergraduate Coursework:} Operating Systems; Databases; Algorithms; Programming Languages; Comp Architecture; Engineering Entrepreneurship; Calculus III
-
-
-%Minor in Linguistics \smallskip \\
-%Member of Eta Kappa Nu \\
-%Member of Upsilon Pi Epsilon \\
-
-
-\end{rSection}
 %--------------------------------------------------------------------------------
 %    Internship And Projects
 %-----------------------------------------------------------------------------------------------
 \begin{rSection}{Technical Projects}
 {\bf Landbank} (Django, SQLite, HTML/CSS) \hfill {\em  March 2018}
-\\Designed  and implemented a Django based website for digitization of village land data(10,000+ records) of district Jhansi. It allows users to search and filter plots on the basis of various parameters. The website is currently in production and is being used by 50+ users.
+\\Designed and implemented a Django-based website for digitizing village land ownership data (10,000+ records) in Jhansi district, providing search and filtering capabilities for 50+ users.
 
 \end{rSection}
 
@@ -90,15 +66,30 @@
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Additional Experience} 
-{\bf Nearmash, Internship:} Developed an Ionic App that allows users to view curated events and services in and around their neighbourhood. Developed APIs for creation, searching and modification of events.
-\\{\bf Mercenary motorsports, web development and crowdfunding lead:} Ran a crowdfunding campaign and collected 6lakhs+ for R\&D of high performance race Karts. Developed website with online payments integration. Successfully completed campaign within 2 months.
-\\{\bf RCubed Club:} Founded computer club that introduced students to software development via hackathons and seminars. Mentored 3 teams to qualify for ICPC regionals in its first year.
+{\bf Nearmash, Internship:} Developed an Ionic Application for 5 Bangalore Apartment complexes, providing curated event and service listings for the neighborhood.
+\\{\bf Mercenary motorsports, Web development and crowdfunding lead:} Raised 6+ lakhs in 2 months through a crowdfunding campaign for high-performance race karts, developing a website with online payments integration.
+\\{\bf RCubed Club:} Founded a 100+ member computer club that nurtured software development skills through hackathons and seminars, resulting in 3 teams qualifying for ICPC regionals in the first year.
 \end{rSection}
+
+%--------------------------------------------------------------------------------
+%    Internship And Projects
+%----------------------------------------------------------------------------------------------
+\begin{rSection}{EDUCATION}
+
+    {\bf Bachelor of Technology in Computer Science and Engineering} \hfill {\em Jul 2015 - May 2019} 
+    \\ Bundelkhand Institute of Engineering and Technology, Jhansi
+    \\ {\bf Undergraduate Coursework:} Operating Systems; Databases; Algorithms; Programming Languages; Comp Architecture; Engineering Entrepreneurship; Calculus III
+    
+    
+    %Minor in Linguistics \smallskip \\
+    %Member of Eta Kappa Nu \\
+    %Member of Upsilon Pi Epsilon \\
+    
+    \end{rSection}
 
 \begin{rSection}{Languages and Technologies}
 % \begin{tabular}{ @{} >{\bfseries}l @{\hspace{0em}} l }
-Python, Java, Flask, Pytest, MSSQL, MongoDB, Javascript,AngularJS, DevOps, Microservices \\
-Git/GitHub, MySQL workbench, PyCharm, Postman, Jupyter Notebook, VS Code \\
+Java, Python, AngularJS, Spring, Flask, MSSQL, MongoDB, CI/CD, Git, Linux, Bash \
 % \end{tabular}
 \end{rSection}
 
@@ -106,4 +97,4 @@ Git/GitHub, MySQL workbench, PyCharm, Postman, Jupyter Notebook, VS Code \\
 % Extra Curricular
 %----------------------------------------------------------------------------------------
 
-\end{document}
+\end{document} 
